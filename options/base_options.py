@@ -41,8 +41,8 @@ class BaseOptions():
         self.parser.add_argument('--resize_or_crop', type=str, default='scaleWidth', help='scaling and cropping of images at load time [resize_and_crop|crop|scaledCrop|scaleWidth|scaleWidth_and_crop|scaleWidth_and_scaledCrop|scaleHeight|scaleHeight_and_crop] etc')
         self.parser.add_argument('--no_flip', action='store_true', help='if specified, do not flip the images for data argumentation')                    
     
-        # more features as input        
-        self.parser.add_argument('--use_instance', action='store_true', help='if specified, add instance map as feature for class A')        
+        # more features as input
+        self.parser.add_argument('--use_instance', action='store_true', help='if specified, add instance map as feature for class A')
         self.parser.add_argument('--label_feat', action='store_true', help='if specified, encode label features as input')
         self.parser.add_argument('--feat_num', type=int, default=3, help='number of encoded features')        
         self.parser.add_argument('--nef', type=int, default=32, help='# of encoder filters in first conv layer')

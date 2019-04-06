@@ -1,0 +1,603 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	../test.py	/^    A = Variable(data['A']).view(1, -1, input_nc, height, width)$/;"	kind:variable	line:38
+B	../test.py	/^    B = Variable(data['B']).view(1, -1, opt.output_nc, height, width) if len(data['B'].size()) > 2 else None$/;"	kind:variable	line:39
+BaseDataLoader	../data/base_data_loader.py	/^class BaseDataLoader():$/;"	kind:class	line:2
+BaseDataset	../data/base_dataset.py	/^class BaseDataset(data.Dataset):$/;"	kind:class	line:8
+BaseModel	../models/base_model.py	/^class BaseModel(torch.nn.Module):$/;"	kind:class	line:4
+BaseOptions	../options/base_options.py	/^class BaseOptions():$/;"	kind:class	line:6
+ChairsSDHom	../models/flownet2_pytorch/datasets.py	/^class ChairsSDHom(data.Dataset):$/;"	kind:class	line:250
+ChairsSDHomTest	../models/flownet2_pytorch/datasets.py	/^class ChairsSDHomTest(ChairsSDHom):$/;"	kind:class	line:316
+ChairsSDHomTrain	../models/flownet2_pytorch/datasets.py	/^class ChairsSDHomTrain(ChairsSDHom):$/;"	kind:class	line:312
+ChannelNorm	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^class ChannelNorm(Module):$/;"	kind:class	line:31
+ChannelNormFunction	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^class ChannelNormFunction(Function):$/;"	kind:class	line:5
+Colorize	../util/util.py	/^class Colorize(object):$/;"	kind:class	line:137
+CompositeGenerator	../models/networks.py	/^class CompositeGenerator(nn.Module):$/;"	kind:class	line:84
+CompositeLocalGenerator	../models/networks.py	/^class CompositeLocalGenerator(nn.Module):$/;"	kind:class	line:201
+Correlation	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^class Correlation(Module):$/;"	kind:class	line:47
+CorrelationFunction	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^class CorrelationFunction(Function):$/;"	kind:class	line:6
+CreateDataLoader	../data/data_loader.py	/^def CreateDataLoader(opt):$/;"	kind:function	line:2
+CreateDataset	../data/custom_dataset_data_loader.py	/^def CreateDataset(opt):$/;"	kind:function	line:5
+CrossEntropyLoss	../models/networks.py	/^class CrossEntropyLoss(nn.Module):$/;"	kind:class	line:759
+CustomDatasetDataLoader	../data/custom_dataset_data_loader.py	/^class CustomDatasetDataLoader(BaseDataLoader):$/;"	kind:class	line:27
+EPE	../models/flownet2_pytorch/losses.py	/^def EPE(input_flow, target_flow):$/;"	kind:function	line:11
+Encoder	../models/networks.py	/^class Encoder(nn.Module):$/;"	kind:class	line:562
+FaceDataset	../data/face_dataset.py	/^class FaceDataset(BaseDataset):$/;"	kind:class	line:13
+FlowNet	../models/flownet.py	/^class FlowNet(BaseModel):$/;"	kind:class	line:6
+FlowNet2	../models/flownet2_pytorch/models.py	/^class FlowNet2(nn.Module):$/;"	kind:class	line:22
+FlowNet2C	../models/flownet2_pytorch/models.py	/^class FlowNet2C(FlowNetC.FlowNetC):$/;"	kind:class	line:184
+FlowNet2CS	../models/flownet2_pytorch/models.py	/^class FlowNet2CS(nn.Module):$/;"	kind:class	line:350
+FlowNet2CSS	../models/flownet2_pytorch/models.py	/^class FlowNet2CSS(nn.Module):$/;"	kind:class	line:415
+FlowNet2S	../models/flownet2_pytorch/models.py	/^class FlowNet2S(FlowNetS.FlowNetS):$/;"	kind:class	line:252
+FlowNet2SD	../models/flownet2_pytorch/models.py	/^class FlowNet2SD(FlowNetSD.FlowNetSD):$/;"	kind:class	line:298
+FlowNetC	../models/flownet2_pytorch/networks/FlowNetC.py	/^class FlowNetC(nn.Module):$/;"	kind:class	line:13
+FlowNetC.py	../models/flownet2_pytorch/networks/FlowNetC.py	1;"	kind:file	line:1
+FlowNetFusion	../models/flownet2_pytorch/networks/FlowNetFusion.py	/^class FlowNetFusion(nn.Module):$/;"	kind:class	line:11
+FlowNetFusion.py	../models/flownet2_pytorch/networks/FlowNetFusion.py	1;"	kind:file	line:1
+FlowNetS	../models/flownet2_pytorch/networks/FlowNetS.py	/^class FlowNetS(nn.Module):$/;"	kind:class	line:15
+FlowNetS.py	../models/flownet2_pytorch/networks/FlowNetS.py	1;"	kind:file	line:1
+FlowNetSD	../models/flownet2_pytorch/networks/FlowNetSD.py	/^class FlowNetSD(nn.Module):$/;"	kind:class	line:11
+FlowNetSD.py	../models/flownet2_pytorch/networks/FlowNetSD.py	1;"	kind:file	line:1
+FlyingChairs	../models/flownet2_pytorch/datasets.py	/^class FlyingChairs(data.Dataset):$/;"	kind:class	line:114
+FlyingThings	../models/flownet2_pytorch/datasets.py	/^class FlyingThings(data.Dataset):$/;"	kind:class	line:175
+FlyingThingsClean	../models/flownet2_pytorch/datasets.py	/^class FlyingThingsClean(FlyingThings):$/;"	kind:class	line:242
+FlyingThingsFinal	../models/flownet2_pytorch/datasets.py	/^class FlyingThingsFinal(FlyingThings):$/;"	kind:class	line:246
+GANLoss	../models/networks.py	/^class GANLoss(nn.Module):$/;"	kind:class	line:697
+GAN_and_FM_loss	../models/vid2vid_model_D.py	/^    def GAN_and_FM_loss(self, pred_real, pred_fake):$/;"	kind:member	line:128
+GlobalGenerator	../models/networks.py	/^class GlobalGenerator(nn.Module):$/;"	kind:class	line:294
+Global_with_z	../models/networks.py	/^class Global_with_z(nn.Module):$/;"	kind:class	line:388
+HTML	../util/html.py	/^class HTML:$/;"	kind:class	line:6
+IMG_EXTENSIONS	../data/image_folder.py	/^IMG_EXTENSIONS = [$/;"	kind:variable	line:14
+ImageFolder	../data/image_folder.py	/^class ImageFolder(data.Dataset):$/;"	kind:class	line:59
+ImagePool	../util/image_pool.py	/^class ImagePool():$/;"	kind:class	line:5
+ImagesFromFolder	../models/flownet2_pytorch/datasets.py	/^class ImagesFromFolder(data.Dataset):$/;"	kind:class	line:320
+IteratorTimer	../models/flownet2_pytorch/utils/tools.py	/^class IteratorTimer():$/;"	kind:class	line:98
+L1	../models/flownet2_pytorch/losses.py	/^class L1(nn.Module):$/;"	kind:class	line:14
+L1Loss	../models/flownet2_pytorch/losses.py	/^class L1Loss(nn.Module):$/;"	kind:class	line:28
+L2	../models/flownet2_pytorch/losses.py	/^class L2(nn.Module):$/;"	kind:class	line:21
+L2Loss	../models/flownet2_pytorch/losses.py	/^class L2Loss(nn.Module):$/;"	kind:class	line:40
+LocalEnhancer	../models/networks.py	/^class LocalEnhancer(nn.Module):$/;"	kind:class	line:328
+Local_with_z	../models/networks.py	/^class Local_with_z(nn.Module):$/;"	kind:class	line:436
+MaskedL1Loss	../models/networks.py	/^class MaskedL1Loss(nn.Module):$/;"	kind:class	line:770
+ModelAndLoss	../models/flownet2_pytorch/main.py	/^        class ModelAndLoss(nn.Module):$/;"	kind:class	line:161
+MpiSintel	../models/flownet2_pytorch/datasets.py	/^class MpiSintel(data.Dataset):$/;"	kind:class	line:30
+MpiSintelClean	../models/flownet2_pytorch/datasets.py	/^class MpiSintelClean(MpiSintel):$/;"	kind:class	line:106
+MpiSintelFinal	../models/flownet2_pytorch/datasets.py	/^class MpiSintelFinal(MpiSintel):$/;"	kind:class	line:110
+MultiScale	../models/flownet2_pytorch/losses.py	/^class MultiScale(nn.Module):$/;"	kind:class	line:52
+MultiscaleDiscriminator	../models/networks.py	/^class MultiscaleDiscriminator(nn.Module):$/;"	kind:class	line:601
+MultiscaleL1Loss	../models/networks.py	/^class MultiscaleL1Loss(nn.Module):$/;"	kind:class	line:780
+MyDict	../models/flownet2_pytorch/models.py	/^class MyDict(dict):$/;"	kind:class	line:19
+NLayerDiscriminator	../models/networks.py	/^class NLayerDiscriminator(nn.Module):$/;"	kind:class	line:645
+PoseDataset	../data/pose_dataset.py	/^class PoseDataset(BaseDataset):$/;"	kind:class	line:11
+Resample2d	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^class Resample2d(Module):$/;"	kind:class	line:38
+Resample2dFunction	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^class Resample2dFunction(Function):$/;"	kind:class	line:5
+ResnetBlock	../models/networks.py	/^class ResnetBlock(nn.Module):$/;"	kind:class	line:521
+StaticCenterCrop	../models/flownet2_pytorch/datasets.py	/^class StaticCenterCrop(object):$/;"	kind:class	line:23
+StaticRandomCrop	../models/flownet2_pytorch/datasets.py	/^class StaticRandomCrop(object):$/;"	kind:class	line:13
+TAG_CHAR	../models/flownet2_pytorch/utils/flow_utils.py	/^TAG_CHAR = np.array([202021.25], np.float32)$/;"	kind:variable	line:3
+TemporalDataset	../data/temporal_dataset.py	/^class TemporalDataset(BaseDataset):$/;"	kind:class	line:11
+TestDataset	../data/test_dataset.py	/^class TestDataset(BaseDataset):$/;"	kind:class	line:10
+TestOptions	../options/test_options.py	/^class TestOptions(BaseOptions):$/;"	kind:class	line:4
+TimerBlock	../models/flownet2_pytorch/utils/tools.py	/^class TimerBlock: $/;"	kind:class	line:24
+TrainOptions	../options/train_options.py	/^class TrainOptions(BaseOptions):$/;"	kind:class	line:4
+VGGLoss	../models/networks.py	/^class VGGLoss(nn.Module):$/;"	kind:class	line:742
+Vgg19	../models/networks.py	/^class Vgg19(nn.Module):$/;"	kind:class	line:806
+Vid2VidModelD	../models/vid2vid_model_D.py	/^class Vid2VidModelD(BaseModel):$/;"	kind:class	line:14
+Vid2VidModelG	../models/vid2vid_model_G.py	/^class Vid2VidModelG(BaseModel):$/;"	kind:class	line:15
+Visualizer	../util/visualizer.py	/^class Visualizer():$/;"	kind:class	line:14
+__call__	../models/flownet2_pytorch/datasets.py	/^    def __call__(self, img):$/;"	kind:member	line:20
+__call__	../models/flownet2_pytorch/datasets.py	/^    def __call__(self, img):$/;"	kind:member	line:27
+__call__	../models/networks.py	/^    def __call__(self, input, target_is_real):$/;"	kind:member	line:730
+__call__	../util/util.py	/^    def __call__(self, gray_image):$/;"	kind:member	line:142
+__crop	../data/base_dataset.py	/^def __crop(img, size, pos):$/;"	kind:function	line:137
+__enter__	../models/flownet2_pytorch/utils/tools.py	/^    def __enter__(self):$/;"	kind:member	line:28
+__exit__	../models/flownet2_pytorch/utils/tools.py	/^    def __exit__(self, exc_type, exc_value, traceback):$/;"	kind:member	line:32
+__flip	../data/base_dataset.py	/^def __flip(img, flip):$/;"	kind:function	line:145
+__getitem__	../data/face_dataset.py	/^    def __getitem__(self, index):$/;"	kind:member	line:29
+__getitem__	../data/image_folder.py	/^    def __getitem__(self, index):$/;"	kind:member	line:75
+__getitem__	../data/pose_dataset.py	/^    def __getitem__(self, index):$/;"	kind:member	line:29
+__getitem__	../data/temporal_dataset.py	/^    def __getitem__(self, index):$/;"	kind:member	line:33
+__getitem__	../data/test_dataset.py	/^    def __getitem__(self, index):$/;"	kind:member	line:30
+__getitem__	../models/flownet2_pytorch/datasets.py	/^    def __getitem__(self, index):$/;"	kind:member	line:76
+__getitem__	../models/flownet2_pytorch/datasets.py	/^  def __getitem__(self, index):$/;"	kind:member	line:146
+__getitem__	../models/flownet2_pytorch/datasets.py	/^  def __getitem__(self, index):$/;"	kind:member	line:213
+__getitem__	../models/flownet2_pytorch/datasets.py	/^  def __getitem__(self, index):$/;"	kind:member	line:282
+__getitem__	../models/flownet2_pytorch/datasets.py	/^  def __getitem__(self, index):$/;"	kind:member	line:345
+__init__	../data/base_data_loader.py	/^    def __init__(self):$/;"	kind:member	line:3
+__init__	../data/base_dataset.py	/^    def __init__(self):$/;"	kind:member	line:9
+__init__	../data/image_folder.py	/^    def __init__(self, root, transform=None, return_paths=False,$/;"	kind:member	line:61
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', dstype = 'clean', replicates = 1):$/;"	kind:member	line:31
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:107
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:111
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:243
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:247
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:313
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, args, is_cropped = False, root = '', replicates = 1):$/;"	kind:member	line:317
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, image_size, crop_size):$/;"	kind:member	line:14
+__init__	../models/flownet2_pytorch/datasets.py	/^    def __init__(self, image_size, crop_size):$/;"	kind:member	line:24
+__init__	../models/flownet2_pytorch/datasets.py	/^  def __init__(self, args, is_cropped, root = '\/path\/to\/FlyingChairs_release\/data', replicates = 1):$/;"	kind:member	line:115
+__init__	../models/flownet2_pytorch/datasets.py	/^  def __init__(self, args, is_cropped, root = '\/path\/to\/chairssdhom\/data', dstype = 'train', replicates = 1):$/;"	kind:member	line:251
+__init__	../models/flownet2_pytorch/datasets.py	/^  def __init__(self, args, is_cropped, root = '\/path\/to\/flyingthings3d', dstype = 'frames_cleanpass', replicates = 1):$/;"	kind:member	line:176
+__init__	../models/flownet2_pytorch/datasets.py	/^  def __init__(self, args, is_cropped, root = '\/path\/to\/frames\/only\/folder', iext = 'png', replicates = 1):$/;"	kind:member	line:321
+__init__	../models/flownet2_pytorch/losses.py	/^    def __init__(self):$/;"	kind:member	line:15
+__init__	../models/flownet2_pytorch/losses.py	/^    def __init__(self):$/;"	kind:member	line:22
+__init__	../models/flownet2_pytorch/losses.py	/^    def __init__(self, args):$/;"	kind:member	line:29
+__init__	../models/flownet2_pytorch/losses.py	/^    def __init__(self, args):$/;"	kind:member	line:41
+__init__	../models/flownet2_pytorch/losses.py	/^    def __init__(self, args, startScale = 4, numScales = 5, l_weight= 0.32, norm= 'L1'):$/;"	kind:member	line:53
+__init__	../models/flownet2_pytorch/main.py	/^            def __init__(self, args):$/;"	kind:member	line:162
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args, batchNorm=False, div_flow = 20.):$/;"	kind:member	line:352
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args, batchNorm=False, div_flow = 20.):$/;"	kind:member	line:417
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args, batchNorm=False, div_flow=20):$/;"	kind:member	line:185
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args, batchNorm=False, div_flow=20):$/;"	kind:member	line:253
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args, batchNorm=False, div_flow=20):$/;"	kind:member	line:299
+__init__	../models/flownet2_pytorch/models.py	/^    def __init__(self, args=None, batchNorm=False, div_flow = 20.):$/;"	kind:member	line:24
+__init__	../models/flownet2_pytorch/networks/FlowNetC.py	/^    def __init__(self,args, batchNorm=True, div_flow = 20):$/;"	kind:member	line:14
+__init__	../models/flownet2_pytorch/networks/FlowNetFusion.py	/^    def __init__(self,args, batchNorm=True):$/;"	kind:member	line:12
+__init__	../models/flownet2_pytorch/networks/FlowNetS.py	/^    def __init__(self, args, input_channels = 12, batchNorm=True):$/;"	kind:member	line:16
+__init__	../models/flownet2_pytorch/networks/FlowNetSD.py	/^    def __init__(self, args, batchNorm=True):$/;"	kind:member	line:12
+__init__	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^    def __init__(self, norm_deg=2):$/;"	kind:member	line:33
+__init__	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^    def __init__(self, pad_size=0, kernel_size=0, max_displacement=0, stride1=1, stride2=2, corr_multiply=1):$/;"	kind:member	line:48
+__init__	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^    def __init__(self, pad_size=3, kernel_size=3, max_displacement=20, stride1=1, stride2=2, corr_multiply=1):$/;"	kind:member	line:8
+__init__	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^    def __init__(self, kernel_size=1):$/;"	kind:member	line:40
+__init__	../models/flownet2_pytorch/networks/submodules.py	/^    def __init__(self):$/;"	kind:member	line:41
+__init__	../models/flownet2_pytorch/networks/submodules.py	/^    def __init__(self):$/;"	kind:member	line:49
+__init__	../models/flownet2_pytorch/utils/tools.py	/^    def __init__(self, iterable):$/;"	kind:member	line:99
+__init__	../models/flownet2_pytorch/utils/tools.py	/^    def __init__(self, title):$/;"	kind:member	line:25
+__init__	../models/networks.py	/^    def __init__(self):$/;"	kind:member	line:771
+__init__	../models/networks.py	/^    def __init__(self, dim, padding_type, norm_layer, activation=nn.ReLU(True), use_dropout=False):$/;"	kind:member	line:522
+__init__	../models/networks.py	/^    def __init__(self, gpu_id=0):$/;"	kind:member	line:743
+__init__	../models/networks.py	/^    def __init__(self, input_nc, ndf=64, n_layers=3, norm_layer=nn.BatchNorm2d, $/;"	kind:member	line:602
+__init__	../models/networks.py	/^    def __init__(self, input_nc, ndf=64, n_layers=3, norm_layer=nn.BatchNorm2d, getIntermFeat=False):$/;"	kind:member	line:646
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, ngf=32, n_downsample_global=3, n_blocks_global=9, $/;"	kind:member	line:329
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, ngf=32, n_downsampling=4, norm_layer=nn.BatchNorm2d):$/;"	kind:member	line:563
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, ngf=64, n_downsampling=3, n_blocks=9, norm_layer=nn.BatchNorm2d, $/;"	kind:member	line:295
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, nz, ngf=32, n_downsample_global=3, n_blocks_global=9, $/;"	kind:member	line:437
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, nz, ngf=64, n_downsample_G=3, n_blocks=9,$/;"	kind:member	line:389
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, prev_output_nc, ngf, n_downsampling, n_blocks, use_fg_model=False, no_flow=False,$/;"	kind:member	line:85
+__init__	../models/networks.py	/^    def __init__(self, input_nc, output_nc, prev_output_nc, ngf, n_downsampling, n_blocks_local, use_fg_model=False, no_flow=False,$/;"	kind:member	line:202
+__init__	../models/networks.py	/^    def __init__(self, label_nc):$/;"	kind:member	line:760
+__init__	../models/networks.py	/^    def __init__(self, requires_grad=False):$/;"	kind:member	line:807
+__init__	../models/networks.py	/^    def __init__(self, scale=5):$/;"	kind:member	line:781
+__init__	../models/networks.py	/^    def __init__(self, use_lsgan=True, target_real_label=1.0, target_fake_label=0.0,$/;"	kind:member	line:698
+__init__	../options/base_options.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../util/html.py	/^    def __init__(self, web_dir, title, reflesh=0):$/;"	kind:member	line:7
+__init__	../util/image_pool.py	/^    def __init__(self, pool_size):$/;"	kind:member	line:6
+__init__	../util/util.py	/^    def __init__(self, n=35):$/;"	kind:member	line:138
+__init__	../util/visualizer.py	/^    def __init__(self, opt):$/;"	kind:member	line:15
+__init__.py	../data/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/networks/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/networks/channelnorm_package/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/networks/correlation_package/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/networks/resample2d_package/__init__.py	1;"	kind:file	line:1
+__init__.py	../models/flownet2_pytorch/utils/__init__.py	1;"	kind:file	line:1
+__init__.py	../options/__init__.py	1;"	kind:file	line:1
+__init__.py	../util/__init__.py	1;"	kind:file	line:1
+__iter__	../models/flownet2_pytorch/utils/tools.py	/^    def __iter__(self):$/;"	kind:member	line:103
+__len__	../data/custom_dataset_data_loader.py	/^    def __len__(self):$/;"	kind:member	line:43
+__len__	../data/face_dataset.py	/^    def __len__(self):$/;"	kind:member	line:204
+__len__	../data/image_folder.py	/^    def __len__(self):$/;"	kind:member	line:85
+__len__	../data/pose_dataset.py	/^    def __len__(self):        $/;"	kind:member	line:134
+__len__	../data/temporal_dataset.py	/^    def __len__(self):$/;"	kind:member	line:75
+__len__	../data/test_dataset.py	/^    def __len__(self):        $/;"	kind:member	line:70
+__len__	../models/flownet2_pytorch/datasets.py	/^    def __len__(self):$/;"	kind:member	line:103
+__len__	../models/flownet2_pytorch/datasets.py	/^  def __len__(self):$/;"	kind:member	line:172
+__len__	../models/flownet2_pytorch/datasets.py	/^  def __len__(self):$/;"	kind:member	line:239
+__len__	../models/flownet2_pytorch/datasets.py	/^  def __len__(self):$/;"	kind:member	line:309
+__len__	../models/flownet2_pytorch/datasets.py	/^  def __len__(self):$/;"	kind:member	line:364
+__len__	../models/flownet2_pytorch/utils/tools.py	/^    def __len__(self):$/;"	kind:member	line:106
+__next__	../models/flownet2_pytorch/utils/tools.py	/^    def __next__(self):$/;"	kind:member	line:109
+__scale_image	../data/base_dataset.py	/^def __scale_image(img, size, method=Image.BICUBIC):$/;"	kind:function	line:133
+_rebuild_tensor_v2	../models/base_model.py	/^            def _rebuild_tensor_v2(storage, storage_offset, size, stride, requires_grad, backward_hooks):$/;"	kind:function	line:53
+add_arguments_for_module	../models/flownet2_pytorch/utils/tools.py	/^def add_arguments_for_module(parser, module, argument_for_class, default, skip_params=[], parameter_defaults={}):$/;"	kind:function	line:55
+add_header	../util/html.py	/^    def add_header(self, str):$/;"	kind:member	line:25
+add_images	../util/html.py	/^    def add_images(self, ims, txts, links, width=400, height=0):$/;"	kind:member	line:33
+add_table	../util/html.py	/^    def add_table(self, border=1):$/;"	kind:member	line:29
+args	../models/flownet2_pytorch/convert.py	/^args = parser.parse_args()$/;"	kind:variable	line:18
+args	../models/flownet2_pytorch/main.py	/^        args = parser.parse_args()$/;"	kind:variable	line:87
+backward	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:20
+backward	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^    def backward(self, grad_output):$/;"	kind:member	line:31
+backward	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^    def backward(ctx, grad_output):$/;"	kind:member	line:24
+base_data_loader.py	../data/base_data_loader.py	1;"	kind:file	line:1
+base_dataset.py	../data/base_dataset.py	1;"	kind:file	line:1
+base_model.py	../models/base_model.py	1;"	kind:file	line:1
+base_options.py	../options/base_options.py	1;"	kind:file	line:1
+best_err	../models/flownet2_pytorch/main.py	/^                best_err = validation_loss$/;"	kind:variable	line:412
+best_err	../models/flownet2_pytorch/main.py	/^            best_err = checkpoint['best_EPE']$/;"	kind:variable	line:211
+best_err	../models/flownet2_pytorch/main.py	/^    best_err = 1e8$/;"	kind:variable	line:395
+biases	../models/flownet2_pytorch/convert.py	/^biases = {}$/;"	kind:variable	line:50
+build_conv_block	../models/networks.py	/^    def build_conv_block(self, dim, padding_type, norm_layer, activation, use_dropout):$/;"	kind:member	line:526
+build_pyr	../models/vid2vid_model_G.py	/^    def build_pyr(self, tensor, nearest=False): # build image pyramid from a single image$/;"	kind:member	line:250
+channelnorm.py	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	1;"	kind:file	line:1
+check_path_valid	../data/image_folder.py	/^def check_path_valid(A_paths, B_paths):$/;"	kind:function	line:50
+checkpoint	../models/flownet2_pytorch/main.py	/^            checkpoint = torch.load(args.resume)$/;"	kind:variable	line:208
+checkpoint_progress	../models/flownet2_pytorch/main.py	/^                checkpoint_progress = tqdm(ncols=100, desc='Saving Checkpoint', position=offset)$/;"	kind:variable	line:432
+checkpoint_progress	../models/flownet2_pytorch/main.py	/^            checkpoint_progress = tqdm(ncols=100, desc='Saving Checkpoint', position=offset)$/;"	kind:variable	line:415
+chpt_path	../scripts/download_datasets.py	/^chpt_path = '.\/datasets\/'$/;"	kind:variable	line:5
+chpt_path	../scripts/download_flownet2.py	/^chpt_path = '.\/models\/'$/;"	kind:variable	line:12
+chpt_path	../scripts/download_models_flownet2.py	/^chpt_path = '.\/models\/flownet2_pytorch\/'$/;"	kind:variable	line:5
+chpt_path	../scripts/face/download_models.py	/^chpt_path = '.\/checkpoints\/'$/;"	kind:variable	line:5
+chpt_path	../scripts/street/download_models.py	/^chpt_path = '.\/checkpoints\/'$/;"	kind:variable	line:5
+chpt_path	../scripts/street/download_models_g1.py	/^chpt_path = '.\/checkpoints\/'$/;"	kind:variable	line:5
+cmdclass	../models/flownet2_pytorch/networks/channelnorm_package/setup.py	/^    cmdclass={$/;"	kind:variable	line:26
+cmdclass	../models/flownet2_pytorch/networks/correlation_package/setup.py	/^    cmdclass={$/;"	kind:variable	line:27
+cmdclass	../models/flownet2_pytorch/networks/resample2d_package/setup.py	/^    cmdclass={$/;"	kind:variable	line:27
+colormap	../util/util.py	/^def colormap(n):$/;"	kind:function	line:123
+compute_flow_and_conf	../models/flownet.py	/^    def compute_flow_and_conf(self, im1, im2):$/;"	kind:member	line:38
+compute_loss_D	../models/vid2vid_model_D.py	/^    def compute_loss_D(self, netD, real_A, real_B, fake_B):        $/;"	kind:member	line:97
+compute_loss_D_T	../models/vid2vid_model_D.py	/^    def compute_loss_D_T(self, real_B, fake_B, flow_ref, conf_ref, scale_T):         $/;"	kind:member	line:110
+compute_mask	../models/vid2vid_model_G.py	/^    def compute_mask(self, real_As, ts, te=None): # compute the mask for foreground objects$/;"	kind:member	line:343
+concat	../models/vid2vid_model_G.py	/^    def concat(self, tensors, dim=0):$/;"	kind:member	line:353
+concat_frame	../data/base_dataset.py	/^def concat_frame(A, Ai, nF):$/;"	kind:function	line:177
+connect_keypoints	../data/keypoint2img.py	/^def connect_keypoints(pts, edge_lists, size, random_drop_prob, remove_face_labels, basic_point_only):$/;"	kind:function	line:106
+conv	../models/flownet2_pytorch/networks/submodules.py	/^def conv(batchNorm, in_planes, out_planes, kernel_size=3, stride=1):$/;"	kind:function	line:7
+convert.py	../models/flownet2_pytorch/convert.py	1;"	kind:file	line:1
+correlation.py	../models/flownet2_pytorch/networks/correlation_package/correlation.py	1;"	kind:file	line:1
+create_model	../models/models.py	/^def create_model(opt):    $/;"	kind:function	line:4
+crop	../data/face_dataset.py	/^    def crop(self, img):$/;"	kind:member	line:169
+crop	../data/pose_dataset.py	/^    def crop(self, Ai):$/;"	kind:member	line:93
+custom_dataset_data_loader.py	../data/custom_dataset_data_loader.py	1;"	kind:file	line:1
+data_loader	../test.py	/^data_loader = CreateDataLoader(opt)$/;"	kind:variable	line:23
+data_loader.py	../data/data_loader.py	1;"	kind:file	line:1
+dataset	../test.py	/^dataset = data_loader.load_data()$/;"	kind:variable	line:24
+dataset_path	../data/face_landmark_detection.py	/^dataset_path = 'datasets\/face\/'$/;"	kind:variable	line:12
+datasets.py	../models/flownet2_pytorch/datasets.py	1;"	kind:file	line:1
+datestr	../models/flownet2_pytorch/utils/tools.py	/^def datestr():$/;"	kind:function	line:13
+deconv	../models/flownet2_pytorch/networks/submodules.py	/^def deconv(in_planes, out_planes):$/;"	kind:function	line:34
+default_loader	../data/image_folder.py	/^def default_loader(path):$/;"	kind:function	line:55
+defaults	../models/flownet2_pytorch/main.py	/^        defaults = vars(parser.parse_args(['--IGNORE']))$/;"	kind:variable	line:92
+define_D	../models/networks.py	/^def define_D(input_nc, ndf, n_layers_D, norm='instance', num_D=1, getIntermFeat=False, gpu_ids=[]):        $/;"	kind:function	line:63
+define_G	../models/networks.py	/^def define_G(input_nc, output_nc, prev_output_nc, ngf, which_model_netG, n_downsampling, norm, scale, gpu_ids=[], opt=[]):$/;"	kind:function	line:34
+define_edge_lists	../data/keypoint2img.py	/^def define_edge_lists(basic_point_only):$/;"	kind:function	line:151
+destination	../scripts/download_datasets.py	/^destination = os.path.join(chpt_path, 'datasets.zip')$/;"	kind:variable	line:8
+destination	../scripts/download_flownet2.py	/^destination = os.path.join(chpt_path, file_name)$/;"	kind:variable	line:15
+destination	../scripts/download_models_flownet2.py	/^destination = os.path.join(chpt_path, 'FlowNet2_checkpoint.pth.tar')$/;"	kind:variable	line:6
+destination	../scripts/face/download_models.py	/^destination = os.path.join(chpt_path, 'models_face.zip')$/;"	kind:variable	line:8
+destination	../scripts/street/download_models.py	/^destination = os.path.join(chpt_path, 'models.zip')$/;"	kind:variable	line:8
+destination	../scripts/street/download_models_g1.py	/^destination = os.path.join(chpt_path, 'models_g1.zip')$/;"	kind:variable	line:8
+detector	../data/face_landmark_detection.py	/^detector = dlib.get_frontal_face_detector()$/;"	kind:variable	line:15
+dets	../data/face_landmark_detection.py	/^        dets = detector(img, 1)$/;"	kind:variable	line:28
+display_current_results	../util/visualizer.py	/^    def display_current_results(self, visuals, epoch, step):$/;"	kind:member	line:38
+dists_min	../models/vid2vid_model_G.py	/^    def dists_min(self, a, b, num=1):        $/;"	kind:member	line:325
+download_datasets.py	../scripts/download_datasets.py	1;"	kind:file	line:1
+download_file_from_google_drive	../scripts/download_gdrive.py	/^def download_file_from_google_drive(id, destination):$/;"	kind:function	line:3
+download_file_from_google_drive	../scripts/face/download_gdrive.py	/^def download_file_from_google_drive(id, destination):$/;"	kind:function	line:3
+download_file_from_google_drive	../scripts/street/download_gdrive.py	/^def download_file_from_google_drive(id, destination):$/;"	kind:function	line:3
+download_flownet2.py	../scripts/download_flownet2.py	1;"	kind:file	line:1
+download_gdrive.py	../scripts/download_gdrive.py	1;"	kind:file	line:1
+download_gdrive.py	../scripts/face/download_gdrive.py	1;"	kind:file	line:1
+download_gdrive.py	../scripts/street/download_gdrive.py	1;"	kind:file	line:1
+download_models.py	../scripts/face/download_models.py	1;"	kind:file	line:1
+download_models.py	../scripts/street/download_models.py	1;"	kind:file	line:1
+download_models_flownet2.py	../scripts/download_models_flownet2.py	1;"	kind:file	line:1
+download_models_g1.py	../scripts/street/download_models_g1.py	1;"	kind:file	line:1
+drawEdge	../data/keypoint2img.py	/^def drawEdge(im, x, y, bw=1, color=(255,255,255), draw_end_points=False):$/;"	kind:function	line:26
+draw_face_edges	../data/face_dataset.py	/^    def draw_face_edges(self, keypoints, part_list, transform_A, size, add_dist_map):$/;"	kind:member	line:129
+encode_input	../models/vid2vid_model_G.py	/^    def encode_input(self, input_map, real_image, inst_map=None):        $/;"	kind:member	line:86
+ext_modules	../models/flownet2_pytorch/networks/channelnorm_package/setup.py	/^    ext_modules=[$/;"	kind:variable	line:20
+ext_modules	../models/flownet2_pytorch/networks/correlation_package/setup.py	/^    ext_modules=[$/;"	kind:variable	line:21
+ext_modules	../models/flownet2_pytorch/networks/resample2d_package/setup.py	/^    ext_modules=[$/;"	kind:variable	line:21
+extract_valid_keypoints	../data/keypoint2img.py	/^def extract_valid_keypoints(pts, edge_lists):$/;"	kind:function	line:85
+f	../data/face_landmark_detection.py	/^    f = img_paths[i]$/;"	kind:variable	line:20
+face_dataset.py	../data/face_dataset.py	1;"	kind:file	line:1
+face_landmark_detection.py	../data/face_landmark_detection.py	1;"	kind:file	line:1
+faces_folder_path	../data/face_landmark_detection.py	/^faces_folder_path = os.path.join(dataset_path, phase + '_img\/')$/;"	kind:variable	line:13
+file_id	../scripts/download_datasets.py	/^file_id = '1rPcbnanuApZeo2uc7h55OneBkbcFCnnf'$/;"	kind:variable	line:4
+file_id	../scripts/download_flownet2.py	/^	file_id = '1F2h_6e8gyTqxnbmFFW72zsxx_JX0dKFo'	$/;"	kind:variable	line:9
+file_id	../scripts/download_flownet2.py	/^	file_id = '1gKwE1Ad41TwtAzwDcN3dYa_S6DcVyiSl'$/;"	kind:variable	line:6
+file_id	../scripts/download_models_flownet2.py	/^file_id = '1E8re-b6csNuo-abg1vJKCDjCzlIam50F'$/;"	kind:variable	line:4
+file_id	../scripts/face/download_models.py	/^file_id = '10LvNw-2lrh-6sPGkWbQDfHspkqz5AKxb'$/;"	kind:variable	line:4
+file_id	../scripts/street/download_models.py	/^file_id = '1MKtImgtnGC28EPU7Nh9DfFpHW6okNVkl'$/;"	kind:variable	line:4
+file_id	../scripts/street/download_models_g1.py	/^file_id = '1QoE1p3QikxNVbbTBWWRDtIspg-RcLE8y'$/;"	kind:variable	line:4
+file_name	../scripts/download_flownet2.py	/^	file_name = 'flownet2_pytorch_040.zip'$/;"	kind:variable	line:10
+file_name	../scripts/download_flownet2.py	/^	file_name = 'flownet2_pytorch_041.zip'$/;"	kind:variable	line:7
+flow_utils.py	../models/flownet2_pytorch/utils/flow_utils.py	1;"	kind:file	line:1
+flownet.py	../models/flownet.py	1;"	kind:file	line:1
+format_dictionary_of_losses	../models/flownet2_pytorch/utils/tools.py	/^def format_dictionary_of_losses(labels, values):$/;"	kind:function	line:88
+forward	../models/base_model.py	/^    def forward(self):$/;"	kind:member	line:18
+forward	../models/flownet.py	/^    def forward(self, input_A, input_B):        $/;"	kind:member	line:25
+forward	../models/flownet2_pytorch/losses.py	/^    def forward(self, output, target):$/;"	kind:member	line:17
+forward	../models/flownet2_pytorch/losses.py	/^    def forward(self, output, target):$/;"	kind:member	line:24
+forward	../models/flownet2_pytorch/losses.py	/^    def forward(self, output, target):$/;"	kind:member	line:35
+forward	../models/flownet2_pytorch/losses.py	/^    def forward(self, output, target):$/;"	kind:member	line:47
+forward	../models/flownet2_pytorch/losses.py	/^    def forward(self, output, target):$/;"	kind:member	line:72
+forward	../models/flownet2_pytorch/main.py	/^            def forward(self, data, target, inference=False ):$/;"	kind:member	line:169
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:117
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:189
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:258
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:304
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:389
+forward	../models/flownet2_pytorch/models.py	/^    def forward(self, inputs):$/;"	kind:member	line:466
+forward	../models/flownet2_pytorch/networks/FlowNetC.py	/^    def forward(self, x):$/;"	kind:member	line:71
+forward	../models/flownet2_pytorch/networks/FlowNetFusion.py	/^    def forward(self, x):$/;"	kind:member	line:47
+forward	../models/flownet2_pytorch/networks/FlowNetS.py	/^    def forward(self, x):$/;"	kind:member	line:60
+forward	../models/flownet2_pytorch/networks/FlowNetSD.py	/^    def forward(self, x):$/;"	kind:member	line:66
+forward	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^    def forward(ctx, input1, norm_deg=2):$/;"	kind:member	line:8
+forward	../models/flownet2_pytorch/networks/channelnorm_package/channelnorm.py	/^    def forward(self, input1):$/;"	kind:member	line:37
+forward	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^    def forward(self, input1, input2):$/;"	kind:member	line:18
+forward	../models/flownet2_pytorch/networks/correlation_package/correlation.py	/^    def forward(self, input1, input2):$/;"	kind:member	line:57
+forward	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^    def forward(ctx, input1, input2, kernel_size=1):$/;"	kind:member	line:8
+forward	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	/^    def forward(self, input1, input2):$/;"	kind:member	line:44
+forward	../models/flownet2_pytorch/networks/submodules.py	/^    def forward(self, input):$/;"	kind:member	line:44
+forward	../models/flownet2_pytorch/networks/submodules.py	/^    def forward(self, input):$/;"	kind:member	line:52
+forward	../models/networks.py	/^    def forward(self, X):$/;"	kind:member	line:829
+forward	../models/networks.py	/^    def forward(self, input):        $/;"	kind:member	line:630
+forward	../models/networks.py	/^    def forward(self, input):$/;"	kind:member	line:683
+forward	../models/networks.py	/^    def forward(self, input, feat=None):$/;"	kind:member	line:322
+forward	../models/networks.py	/^    def forward(self, input, feat_map=None):$/;"	kind:member	line:369
+forward	../models/networks.py	/^    def forward(self, input, img_prev, mask, img_feat_coarse, flow_feat_coarse, img_fg_feat_coarse, use_raw_only):$/;"	kind:member	line:170
+forward	../models/networks.py	/^    def forward(self, input, img_prev, mask, img_feat_coarse, flow_feat_coarse, img_fg_feat_coarse, use_raw_only):$/;"	kind:member	line:263
+forward	../models/networks.py	/^    def forward(self, input, inst):$/;"	kind:member	line:584
+forward	../models/networks.py	/^    def forward(self, input, target, mask):        $/;"	kind:member	line:775
+forward	../models/networks.py	/^    def forward(self, input, target, mask=None):$/;"	kind:member	line:789
+forward	../models/networks.py	/^    def forward(self, input, z): $/;"	kind:member	line:479
+forward	../models/networks.py	/^    def forward(self, output, label):$/;"	kind:member	line:765
+forward	../models/networks.py	/^    def forward(self, x):$/;"	kind:member	line:558
+forward	../models/networks.py	/^    def forward(self, x, y):$/;"	kind:member	line:750
+forward	../models/networks.py	/^    def forward(self, x, z):$/;"	kind:member	line:427
+forward	../models/vid2vid_model_D.py	/^    def forward(self, scale_T, tensors_list):$/;"	kind:member	line:144
+forward	../models/vid2vid_model_G.py	/^    def forward(self, input_A, input_B, inst_A, fake_B_prev):$/;"	kind:member	line:114
+frame_utils.py	../models/flownet2_pytorch/utils/frame_utils.py	1;"	kind:file	line:1
+func	../data/keypoint2img.py	/^def func(x, a, b, c):    $/;"	kind:function	line:9
+generate_first_frame	../models/vid2vid_model_G.py	/^    def generate_first_frame(self, real_A, real_B, pool_map=None):$/;"	kind:member	line:228
+generate_frame_infer	../models/vid2vid_model_G.py	/^    def generate_frame_infer(self, real_A, s):$/;"	kind:member	line:208
+generate_frame_train	../models/vid2vid_model_G.py	/^    def generate_frame_train(self, netG, real_A_all, fake_B_pyr, start_gpu, is_first_frame):        $/;"	kind:member	line:136
+generated	../test.py	/^    generated = model.inference(A, B, inst)$/;"	kind:variable	line:41
+get_confirm_token	../scripts/download_gdrive.py	/^def get_confirm_token(response):$/;"	kind:function	line:12
+get_confirm_token	../scripts/face/download_gdrive.py	/^def get_confirm_token(response):$/;"	kind:function	line:12
+get_confirm_token	../scripts/street/download_gdrive.py	/^def get_confirm_token(response):$/;"	kind:function	line:12
+get_crop_coords	../data/face_dataset.py	/^    def get_crop_coords(self, keypoints, size):                $/;"	kind:member	line:159
+get_current_errors	../models/base_model.py	/^    def get_current_errors(self):$/;"	kind:member	line:34
+get_current_visuals	../models/base_model.py	/^    def get_current_visuals(self):$/;"	kind:member	line:31
+get_edges	../models/vid2vid_model_G.py	/^    def get_edges(self, t):$/;"	kind:member	line:335
+get_face_features	../models/vid2vid_model_G.py	/^    def get_face_features(self, real_image, inst):                $/;"	kind:member	line:293
+get_face_image	../data/face_dataset.py	/^    def get_face_image(self, A_path, transform_A, transform_L, size, img):$/;"	kind:member	line:71
+get_face_region	../models/vid2vid_model_D.py	/^    def get_face_region(self, real_A):$/;"	kind:member	line:216
+get_image	../data/face_dataset.py	/^    def get_image(self, A_path, transform_scaleA):$/;"	kind:member	line:66
+get_image	../data/pose_dataset.py	/^    def get_image(self, A_path, size, params, input_type):$/;"	kind:member	line:69
+get_image	../data/temporal_dataset.py	/^    def get_image(self, A_path, transform_scaleA, is_label=False):$/;"	kind:member	line:68
+get_image	../data/test_dataset.py	/^    def get_image(self, A_path, transform_scaleA, is_label=False):$/;"	kind:member	line:63
+get_image_dir	../util/html.py	/^    def get_image_dir(self):$/;"	kind:member	line:22
+get_image_paths	../models/base_model.py	/^    def get_image_paths(self):$/;"	kind:member	line:25
+get_img_params	../data/base_dataset.py	/^def get_img_params(opt, size):$/;"	kind:function	line:58
+get_norm_layer	../models/networks.py	/^def get_norm_layer(norm_type='instance'):$/;"	kind:function	line:25
+get_skipped_flows	../train.py	/^def get_skipped_flows(flowNet, flow_ref_all, conf_ref_all, real_B, flow_ref, conf_ref, t_scales, tD):  $/;"	kind:function	line:290
+get_skipped_frames	../train.py	/^def get_skipped_frames(B_all, B, t_scales, tD):$/;"	kind:function	line:273
+get_skipped_frames_sparse	../train.py	/^def get_skipped_frames_sparse(B_all, B, t_scales, tD, n_frames_load, i, is_flow=False):$/;"	kind:function	line:302
+get_target_tensor	../models/networks.py	/^    def get_target_tensor(self, input, target_is_real):$/;"	kind:member	line:711
+get_transform	../data/base_dataset.py	/^def get_transform(opt, params, method=Image.BICUBIC, normalize=True, toTensor=True):$/;"	kind:function	line:103
+get_video_params	../data/base_dataset.py	/^def get_video_params(opt, n_frames_total, cur_seq_len, index):$/;"	kind:function	line:150
+global_iteration	../models/flownet2_pytorch/main.py	/^    global_iteration = 0$/;"	kind:variable	line:399
+gpuargs	../models/flownet2_pytorch/main.py	/^        gpuargs = {'num_workers': args.effective_number_workers, $/;"	kind:variable	line:132
+gpumemusage	../models/flownet2_pytorch/utils/tools.py	/^def gpumemusage():$/;"	kind:function	line:117
+height	../models/flownet2_pytorch/convert.py	/^height = 256$/;"	kind:variable	line:31
+hook	../models/flownet2_pytorch/networks/submodules.py	/^    def hook(grad):$/;"	kind:function	line:73
+html	../util/html.py	/^    html = HTML('web\/', 'test_html')$/;"	kind:variable	line:56
+html.py	../util/html.py	1;"	kind:file	line:1
+i_conv	../models/flownet2_pytorch/networks/submodules.py	/^def i_conv(batchNorm, in_planes, out_planes, kernel_size=3, stride=1, bias = True):$/;"	kind:function	line:20
+image_folder.py	../data/image_folder.py	1;"	kind:file	line:1
+image_pool.py	../util/image_pool.py	1;"	kind:file	line:1
+img	../data/face_landmark_detection.py	/^        img = io.imread(img_name)$/;"	kind:variable	line:27
+img_path	../test.py	/^    img_path = data['A_path']$/;"	kind:variable	line:52
+img_paths	../data/face_landmark_detection.py	/^img_paths = sorted(glob.glob(faces_folder_path + '*'))$/;"	kind:variable	line:18
+ims	../util/html.py	/^    ims = []$/;"	kind:variable	line:59
+inf_gpuargs	../models/flownet2_pytorch/main.py	/^        inf_gpuargs = gpuargs.copy()$/;"	kind:variable	line:135
+inference	../models/flownet2_pytorch/main.py	/^    def inference(args, epoch, data_loader, model, offset=0):$/;"	kind:function	line:341
+inference	../models/vid2vid_model_G.py	/^    def inference(self, input_A, input_B, inst_A):$/;"	kind:member	line:195
+inference_dataset	../models/flownet2_pytorch/main.py	/^            inference_dataset = args.inference_dataset_class(args, False, **tools.kwargs_from_args(args, 'inference_dataset'))$/;"	kind:variable	line:153
+inference_loader	../models/flownet2_pytorch/main.py	/^            inference_loader = DataLoader(inference_dataset, batch_size=args.effective_inference_batch_size, shuffle=False, **inf_gpuargs)$/;"	kind:variable	line:157
+init_deconv_bilinear	../models/flownet2_pytorch/models.py	/^    def init_deconv_bilinear(self, weight):$/;"	kind:member	line:101
+init_deconv_bilinear	../models/flownet2_pytorch/networks/submodules.py	/^def init_deconv_bilinear(weight):$/;"	kind:function	line:56
+init_frame_idx	../data/base_dataset.py	/^    def init_frame_idx(self, A_paths):$/;"	kind:member	line:25
+initialize	../data/base_data_loader.py	/^    def initialize(self, opt):$/;"	kind:member	line:6
+initialize	../data/base_dataset.py	/^    def initialize(self, opt):$/;"	kind:member	line:15
+initialize	../data/custom_dataset_data_loader.py	/^    def initialize(self, opt):$/;"	kind:member	line:31
+initialize	../data/face_dataset.py	/^    def initialize(self, opt):$/;"	kind:member	line:14
+initialize	../data/pose_dataset.py	/^    def initialize(self, opt):$/;"	kind:member	line:12
+initialize	../data/temporal_dataset.py	/^    def initialize(self, opt):$/;"	kind:member	line:12
+initialize	../data/test_dataset.py	/^    def initialize(self, opt):$/;"	kind:member	line:11
+initialize	../models/base_model.py	/^    def initialize(self, opt):$/;"	kind:member	line:8
+initialize	../models/flownet.py	/^    def initialize(self, opt):$/;"	kind:member	line:10
+initialize	../models/vid2vid_model_D.py	/^    def initialize(self, opt):$/;"	kind:member	line:18
+initialize	../models/vid2vid_model_G.py	/^    def initialize(self, opt):$/;"	kind:member	line:19
+initialize	../options/base_options.py	/^    def initialize(self):                $/;"	kind:member	line:11
+initialize	../options/test_options.py	/^    def initialize(self):$/;"	kind:member	line:5
+initialize	../options/train_options.py	/^    def initialize(self):$/;"	kind:member	line:5
+inst	../test.py	/^    inst = Variable(data['inst']).view(1, -1, 1, height, width) if len(data['inst'].size()) > 2 else None$/;"	kind:variable	line:40
+interpPoints	../data/keypoint2img.py	/^def interpPoints(x, y):    $/;"	kind:function	line:45
+is_best	../models/flownet2_pytorch/main.py	/^                is_best = True$/;"	kind:variable	line:413
+is_best	../models/flownet2_pytorch/main.py	/^            is_best = False$/;"	kind:variable	line:410
+is_image_file	../data/image_folder.py	/^def is_image_file(filename):$/;"	kind:function	line:21
+keypoint2img.py	../data/keypoint2img.py	1;"	kind:file	line:1
+keys	../models/flownet2_pytorch/convert.py	/^keys = {'TARGET_WIDTH': width, $/;"	kind:variable	line:32
+kwargs	../models/flownet2_pytorch/main.py	/^        kwargs = tools.kwargs_from_args(args, 'optimizer')$/;"	kind:variable	line:231
+kwargs_from_args	../models/flownet2_pytorch/utils/tools.py	/^def kwargs_from_args(args, argument_for_class):$/;"	kind:function	line:84
+labelcolormap	../util/util.py	/^def labelcolormap(N):$/;"	kind:function	line:96
+last_epoch_time	../models/flownet2_pytorch/main.py	/^        last_epoch_time = progress._time()$/;"	kind:variable	line:443
+last_epoch_time	../models/flownet2_pytorch/main.py	/^    last_epoch_time = progress._time()$/;"	kind:variable	line:398
+lcm	../train.py	/^def lcm(a,b): return abs(a * b)\/fractions.gcd(a,b) if a and b else 0$/;"	kind:function	line:11
+linear	../data/keypoint2img.py	/^def linear(x, a, b):$/;"	kind:function	line:12
+links	../util/html.py	/^    links = []$/;"	kind:variable	line:61
+load_data	../data/base_data_loader.py	/^    def load_data():$/;"	kind:member	line:10
+load_data	../data/custom_dataset_data_loader.py	/^    def load_data(self):$/;"	kind:member	line:40
+load_network	../models/base_model.py	/^    def load_network(self, network, network_label, epoch_label, save_dir=''):        $/;"	kind:member	line:61
+load_single_G	../models/vid2vid_model_G.py	/^    def load_single_G(self): # load the model that generates the first frame$/;"	kind:member	line:264
+log	../models/flownet2_pytorch/utils/tools.py	/^    def log(self, string):$/;"	kind:member	line:42
+log2file	../models/flownet2_pytorch/utils/tools.py	/^    def log2file(self, fid, string):$/;"	kind:member	line:50
+losses.py	../models/flownet2_pytorch/losses.py	1;"	kind:file	line:1
+main.py	../models/flownet2_pytorch/main.py	1;"	kind:file	line:1
+main_dir	../models/flownet2_pytorch/main.py	/^    main_dir = os.path.dirname(os.path.realpath(__file__))$/;"	kind:variable	line:82
+make_dataset	../data/image_folder.py	/^def make_dataset(dir):$/;"	kind:function	line:25
+make_grouped_dataset	../data/image_folder.py	/^def make_grouped_dataset(dir):$/;"	kind:function	line:36
+make_power_2	../data/base_dataset.py	/^def make_power_2(n, base=32.0):    $/;"	kind:function	line:55
+mkdir	../util/util.py	/^def mkdir(path):$/;"	kind:function	line:88
+mkdirs	../util/util.py	/^def mkdirs(paths):$/;"	kind:function	line:81
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2(args)$/;"	kind:variable	line:58
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2C(args)$/;"	kind:variable	line:72
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2CS(args)$/;"	kind:variable	line:81
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2CSS(args)$/;"	kind:variable	line:104
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2CSS(args)$/;"	kind:variable	line:92
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2S(args)$/;"	kind:variable	line:116
+model	../models/flownet2_pytorch/convert.py	/^    model = models.FlowNet2SD(args)$/;"	kind:variable	line:125
+model	../test.py	/^model = create_model(opt)$/;"	kind:variable	line:25
+model_and_loss	../models/flownet2_pytorch/main.py	/^            model_and_loss = model_and_loss.cuda()$/;"	kind:variable	line:196
+model_and_loss	../models/flownet2_pytorch/main.py	/^            model_and_loss = model_and_loss.cuda().half()$/;"	kind:variable	line:190
+model_and_loss	../models/flownet2_pytorch/main.py	/^            model_and_loss = nn.parallel.DataParallel(model_and_loss, device_ids=list(range(args.number_gpus)))$/;"	kind:variable	line:187
+model_and_loss	../models/flownet2_pytorch/main.py	/^            model_and_loss = nn.parallel.DataParallel(model_and_loss, device_ids=list(range(args.number_gpus)))$/;"	kind:variable	line:198
+model_and_loss	../models/flownet2_pytorch/main.py	/^        model_and_loss = ModelAndLoss(args)$/;"	kind:variable	line:179
+models.py	../models/flownet2_pytorch/models.py	1;"	kind:file	line:1
+models.py	../models/models.py	1;"	kind:file	line:1
+module_to_dict	../models/flownet2_pytorch/utils/tools.py	/^def module_to_dict(module, exclude=[]):$/;"	kind:function	line:18
+n_of_seqs	../data/test_dataset.py	/^    def n_of_seqs(self):        $/;"	kind:member	line:73
+name	../data/base_dataset.py	/^    def name(self):$/;"	kind:member	line:12
+name	../data/custom_dataset_data_loader.py	/^    def name(self):$/;"	kind:member	line:28
+name	../data/face_dataset.py	/^    def name(self):$/;"	kind:member	line:210
+name	../data/pose_dataset.py	/^    def name(self):$/;"	kind:member	line:137
+name	../data/temporal_dataset.py	/^    def name(self):$/;"	kind:member	line:78
+name	../data/test_dataset.py	/^    def name(self):$/;"	kind:member	line:76
+name	../models/base_model.py	/^    def name(self):$/;"	kind:member	line:5
+name	../models/flownet.py	/^    def name(self):$/;"	kind:member	line:7
+name	../models/flownet2_pytorch/networks/channelnorm_package/setup.py	/^    name='channelnorm_cuda',$/;"	kind:variable	line:19
+name	../models/flownet2_pytorch/networks/correlation_package/setup.py	/^    name='correlation_cuda',$/;"	kind:variable	line:20
+name	../models/flownet2_pytorch/networks/resample2d_package/setup.py	/^    name='resample2d_cuda',$/;"	kind:variable	line:20
+name	../models/vid2vid_model_D.py	/^    def name(self):$/;"	kind:member	line:15
+name	../models/vid2vid_model_G.py	/^    def name(self):$/;"	kind:member	line:16
+net	../models/flownet2_pytorch/convert.py	/^net = caffe.Net(prototxt.name, args.caffe_model, caffe.TEST)$/;"	kind:variable	line:47
+networks.py	../models/networks.py	1;"	kind:file	line:1
+next	../models/flownet2_pytorch/utils/tools.py	/^    next = __next__$/;"	kind:variable	line:115
+norm	../models/flownet.py	/^    def norm(self, t):$/;"	kind:member	line:57
+normalize_pose	../data/pose_dataset.py	/^    def normalize_pose(self, A_img, target_yc, target_len, first=False):$/;"	kind:member	line:100
+nvcc_args	../models/flownet2_pytorch/networks/channelnorm_package/setup.py	/^nvcc_args = [$/;"	kind:variable	line:10
+nvcc_args	../models/flownet2_pytorch/networks/correlation_package/setup.py	/^nvcc_args = [$/;"	kind:variable	line:10
+nvcc_args	../models/flownet2_pytorch/networks/resample2d_package/setup.py	/^nvcc_args = [$/;"	kind:variable	line:10
+offset	../models/flownet2_pytorch/main.py	/^    offset = 1$/;"	kind:variable	line:397
+opt	../test.py	/^opt = TestOptions().parse(save=False)$/;"	kind:variable	line:15
+optimize_parameters	../models/base_model.py	/^    def optimize_parameters(self):$/;"	kind:member	line:28
+optimizer	../models/flownet2_pytorch/main.py	/^            optimizer = args.optimizer_class([p for p in model_and_loss.parameters() if p.requires_grad], **kwargs)$/;"	kind:variable	line:235
+optimizer	../models/flownet2_pytorch/main.py	/^            optimizer = args.optimizer_class([p for p in param_copy if p.requires_grad], **kwargs)$/;"	kind:variable	line:233
+param_copy	../models/flownet2_pytorch/main.py	/^            param_copy = [param.clone().type(torch.cuda.FloatTensor).detach() for param in model_and_loss.parameters()]$/;"	kind:variable	line:192
+param_utils.py	../models/flownet2_pytorch/utils/param_utils.py	1;"	kind:file	line:1
+parameter_defaults	../models/flownet2_pytorch/main.py	/^                                    parameter_defaults={'root': '.\/MPI-Sintel\/flow\/training',$/;"	kind:variable	line:74
+parameter_defaults	../models/flownet2_pytorch/main.py	/^                                    parameter_defaults={'root': '.\/MPI-Sintel\/flow\/training',$/;"	kind:variable	line:79
+parameter_defaults	../models/flownet2_pytorch/main.py	/^                                    parameter_defaults={'root': '.\/MPI-Sintel\/flow\/training'})$/;"	kind:variable	line:70
+parse	../options/base_options.py	/^    def parse(self, save=True):$/;"	kind:member	line:94
+parse_flownetc	../models/flownet2_pytorch/utils/param_utils.py	/^def parse_flownetc(modules, weights, biases):$/;"	kind:function	line:5
+parse_flownetfusion	../models/flownet2_pytorch/utils/param_utils.py	/^def parse_flownetfusion(modules, weights, biases, param_prefix='fuse_'):$/;"	kind:function	line:214
+parse_flownets	../models/flownet2_pytorch/utils/param_utils.py	/^def parse_flownets(modules, weights, biases, param_prefix='net2_'):$/;"	kind:function	line:51
+parse_flownetsd	../models/flownet2_pytorch/utils/param_utils.py	/^def parse_flownetsd(modules, weights, biases, param_prefix='netsd_'):$/;"	kind:function	line:156
+parse_flownetsonly	../models/flownet2_pytorch/utils/param_utils.py	/^def parse_flownetsonly(modules, weights, biases, param_prefix=''):$/;"	kind:function	line:104
+parse_str	../options/base_options.py	/^    def parse_str(self, ids):$/;"	kind:member	line:85
+parser	../models/flownet2_pytorch/convert.py	/^parser = argparse.ArgumentParser()$/;"	kind:variable	line:13
+parser	../models/flownet2_pytorch/main.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:23
+phase	../data/face_landmark_detection.py	/^phase = sys.argv[1]$/;"	kind:variable	line:11
+plot_current_errors	../util/visualizer.py	/^    def plot_current_errors(self, errors, step):$/;"	kind:member	line:96
+points	../data/face_landmark_detection.py	/^            points = np.empty([68, 2], dtype=int)$/;"	kind:variable	line:31
+pose_dataset.py	../data/pose_dataset.py	1;"	kind:file	line:1
+predict_flow	../models/flownet2_pytorch/networks/submodules.py	/^def predict_flow(in_planes):$/;"	kind:function	line:31
+predictor	../data/face_landmark_detection.py	/^predictor = dlib.shape_predictor(predictor_path)$/;"	kind:variable	line:16
+predictor_path	../data/face_landmark_detection.py	/^predictor_path = os.path.join(dataset_path, 'shape_predictor_68_face_landmarks.dat')$/;"	kind:variable	line:14
+print_current_errors	../util/visualizer.py	/^    def print_current_errors(self, epoch, i, errors, t):$/;"	kind:member	line:103
+print_network	../models/networks.py	/^def print_network(net):$/;"	kind:function	line:72
+print_numpy	../util/util.py	/^def print_numpy(x, val=True, shp=False):$/;"	kind:function	line:72
+progress	../models/flownet2_pytorch/main.py	/^    progress = tqdm(list(range(args.start_epoch, args.total_epochs + 1)), miniters=1, ncols=100, desc='Overall Progress', leave=True, position=0)$/;"	kind:variable	line:396
+prototxt	../models/flownet2_pytorch/convert.py	/^prototxt = tempfile.NamedTemporaryFile(mode='w', delete=True)$/;"	kind:variable	line:43
+query	../util/image_pool.py	/^    def query(self, images):$/;"	kind:member	line:12
+readFlow	../models/flownet2_pytorch/utils/flow_utils.py	/^def readFlow(fn):$/;"	kind:function	line:5
+read_gen	../models/flownet2_pytorch/utils/frame_utils.py	/^def read_gen(file_name):$/;"	kind:function	line:6
+read_keypoints	../data/face_dataset.py	/^    def read_keypoints(self, A_path, size):        $/;"	kind:member	line:91
+read_keypoints	../data/keypoint2img.py	/^def read_keypoints(json_input, size, random_drop_prob=0, remove_face_labels=False, basic_point_only=False):$/;"	kind:function	line:69
+real_A	../test.py	/^        real_A = util.tensor2im(generated[1][:c], normalize=False)    $/;"	kind:variable	line:47
+real_A	../test.py	/^        real_A = util.tensor2label(generated[1], opt.label_nc)$/;"	kind:variable	line:44
+resample2d.py	../models/flownet2_pytorch/networks/resample2d_package/resample2d.py	1;"	kind:file	line:1
+reset	../models/flownet2_pytorch/main.py	/^            reset = colorama.Style.RESET_ALL$/;"	kind:variable	line:96
+reshape	../train.py	/^def reshape(tensors):$/;"	kind:function	line:264
+resolve_version	../models/base_model.py	/^    def resolve_version(self):$/;"	kind:member	line:48
+save	../models/base_model.py	/^    def save(self, label):$/;"	kind:member	line:37
+save	../models/vid2vid_model_D.py	/^    def save(self, label):$/;"	kind:member	line:233
+save	../models/vid2vid_model_G.py	/^    def save(self, label):        $/;"	kind:member	line:366
+save	../util/html.py	/^    def save(self):$/;"	kind:member	line:48
+save_checkpoint	../models/flownet2_pytorch/utils/tools.py	/^def save_checkpoint(state, is_best, path, prefix, filename='checkpoint.pth.tar'):$/;"	kind:function	line:138
+save_dir	../test.py	/^save_dir = os.path.join(opt.results_dir, opt.name, '%s_%s' % (opt.phase, opt.which_epoch))$/;"	kind:variable	line:29
+save_grad	../models/flownet2_pytorch/networks/submodules.py	/^def save_grad(grads, name):$/;"	kind:function	line:72
+save_image	../util/util.py	/^def save_image(image_numpy, image_path):$/;"	kind:function	line:68
+save_images	../util/visualizer.py	/^    def save_images(self, image_dir, visuals, image_path, webpage=None):        $/;"	kind:member	line:114
+save_name	../data/face_landmark_detection.py	/^            save_name = os.path.join(save_path, os.path.basename(img_name)[:-4] + '.txt')$/;"	kind:variable	line:36
+save_network	../models/base_model.py	/^    def save_network(self, network, network_label, epoch_label, gpu_ids):$/;"	kind:member	line:41
+save_path	../data/face_landmark_detection.py	/^    save_path = os.path.join(dataset_path, phase + '_keypoints', os.path.basename(f))$/;"	kind:variable	line:22
+save_response_content	../scripts/download_gdrive.py	/^def save_response_content(response, destination):$/;"	kind:function	line:17
+save_response_content	../scripts/face/download_gdrive.py	/^def save_response_content(response, destination):$/;"	kind:function	line:17
+save_response_content	../scripts/street/download_gdrive.py	/^def save_response_content(response, destination):$/;"	kind:function	line:17
+scale_points	../data/face_dataset.py	/^    def scale_points(self, keypoints, part, index, sym=False):$/;"	kind:member	line:175
+setColor	../data/keypoint2img.py	/^def setColor(im, yy, xx, color):$/;"	kind:function	line:15
+set_input	../models/base_model.py	/^    def set_input(self, input):$/;"	kind:member	line:15
+setup.py	../models/flownet2_pytorch/networks/channelnorm_package/setup.py	1;"	kind:file	line:1
+setup.py	../models/flownet2_pytorch/networks/correlation_package/setup.py	1;"	kind:file	line:1
+setup.py	../models/flownet2_pytorch/networks/resample2d_package/setup.py	1;"	kind:file	line:1
+shape	../data/face_landmark_detection.py	/^            shape = predictor(img, dets[0])$/;"	kind:variable	line:30
+singleD_forward	../models/networks.py	/^    def singleD_forward(self, model, input):$/;"	kind:member	line:621
+skip_params	../models/flownet2_pytorch/main.py	/^                                    skip_params=['is_cropped'],$/;"	kind:variable	line:69
+skip_params	../models/flownet2_pytorch/main.py	/^                                    skip_params=['is_cropped'],$/;"	kind:variable	line:73
+skip_params	../models/flownet2_pytorch/main.py	/^                                    skip_params=['is_cropped'],$/;"	kind:variable	line:78
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:110
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:119
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:129
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:66
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:75
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:86
+state	../models/flownet2_pytorch/convert.py	/^    state = {'epoch': 0,$/;"	kind:variable	line:98
+stats	../models/flownet2_pytorch/main.py	/^            stats = inference(args=args, epoch=epoch - 1, data_loader=inference_loader, model=model_and_loss, offset=offset)$/;"	kind:variable	line:403
+submodules.py	../models/flownet2_pytorch/networks/submodules.py	1;"	kind:file	line:1
+template	../models/flownet2_pytorch/convert.py	/^    template = template.replace('$%s$'%(k),str(keys[k]))$/;"	kind:variable	line:41
+template	../models/flownet2_pytorch/convert.py	/^template = '\\n'.join(np.loadtxt(args.prototxt_template, dtype=str, delimiter='\\n'))$/;"	kind:variable	line:39
+temporal_dataset.py	../data/temporal_dataset.py	1;"	kind:file	line:1
+tensor2flow	../util/util.py	/^def tensor2flow(output, imtype=np.uint8):$/;"	kind:function	line:50
+tensor2im	../util/util.py	/^def tensor2im(image_tensor, imtype=np.uint8, normalize=True):$/;"	kind:function	line:14
+tensor2label	../util/util.py	/^def tensor2label(output, n_label, imtype=np.uint8):$/;"	kind:function	line:36
+test	../models/base_model.py	/^    def test(self):$/;"	kind:member	line:22
+test.py	../test.py	1;"	kind:file	line:1
+test_dataset.py	../data/test_dataset.py	1;"	kind:file	line:1
+test_options.py	../options/test_options.py	1;"	kind:file	line:1
+toTensor_normalize	../data/base_dataset.py	/^def toTensor_normalize():    $/;"	kind:function	line:127
+tofp16	../models/flownet2_pytorch/networks/submodules.py	/^class tofp16(nn.Module):$/;"	kind:class	line:40
+tofp32	../models/flownet2_pytorch/networks/submodules.py	/^class tofp32(nn.Module):$/;"	kind:class	line:48
+tools.py	../models/flownet2_pytorch/utils/tools.py	1;"	kind:file	line:1
+train	../models/flownet2_pytorch/main.py	/^    def train(args, epoch, start_iteration, data_loader, model, optimizer, logger, is_validate=False, offset=0):$/;"	kind:function	line:244
+train	../train.py	/^def train():$/;"	kind:function	line:19
+train.py	../train.py	1;"	kind:file	line:1
+train_dataset	../models/flownet2_pytorch/main.py	/^            train_dataset = args.training_dataset_class(args, True, **tools.kwargs_from_args(args, 'training_dataset'))$/;"	kind:variable	line:139
+train_loader	../models/flownet2_pytorch/main.py	/^            train_loader = DataLoader(train_dataset, batch_size=args.effective_batch_size, shuffle=True, **gpuargs)$/;"	kind:variable	line:143
+train_logger	../models/flownet2_pytorch/main.py	/^        train_logger = SummaryWriter(log_dir = os.path.join(args.save, 'train'), comment = 'training')$/;"	kind:variable	line:226
+train_options.py	../options/train_options.py	1;"	kind:file	line:1
+txts	../util/html.py	/^    txts = []$/;"	kind:variable	line:60
+uint82bin	../util/util.py	/^def uint82bin(n, count=8):$/;"	kind:function	line:92
+unzip_file	../scripts/download_gdrive.py	/^def unzip_file(file_name, unzip_path):$/;"	kind:function	line:24
+unzip_file	../scripts/face/download_gdrive.py	/^def unzip_file(file_name, unzip_path):$/;"	kind:function	line:24
+unzip_file	../scripts/street/download_gdrive.py	/^def unzip_file(file_name, unzip_path):$/;"	kind:function	line:24
+update_fixed_params	../models/vid2vid_model_G.py	/^    def update_fixed_params(self): # finetune all scales instead of just finest scale$/;"	kind:member	line:377
+update_frame_idx	../data/base_dataset.py	/^    def update_frame_idx(self, A_paths, index):$/;"	kind:member	line:39
+update_hyperparameter_schedule	../models/flownet2_pytorch/utils/tools.py	/^def update_hyperparameter_schedule(args, epoch, global_iteration, optimizer):$/;"	kind:function	line:131
+update_learning_rate	../models/base_model.py	/^    def update_learning_rate():$/;"	kind:member	line:107
+update_learning_rate	../models/vid2vid_model_D.py	/^    def update_learning_rate(self, epoch):        $/;"	kind:member	line:240
+update_learning_rate	../models/vid2vid_model_G.py	/^    def update_learning_rate(self, epoch):        $/;"	kind:member	line:370
+update_training_batch	../data/base_dataset.py	/^    def update_training_batch(self, ratio): # update the training sequence length to be longer      $/;"	kind:member	line:18
+update_training_batch	../models/vid2vid_model_G.py	/^    def update_training_batch(self, ratio): # increase number of backpropagated frames and number of frames in each GPU$/;"	kind:member	line:385
+util.py	../util/util.py	1;"	kind:file	line:1
+validation_dataset	../models/flownet2_pytorch/main.py	/^            validation_dataset = args.validation_dataset_class(args, True, **tools.kwargs_from_args(args, 'validation_dataset'))$/;"	kind:variable	line:146
+validation_loader	../models/flownet2_pytorch/main.py	/^            validation_loader = DataLoader(validation_dataset, batch_size=args.effective_batch_size, shuffle=False, **gpuargs)$/;"	kind:variable	line:150
+validation_logger	../models/flownet2_pytorch/main.py	/^        validation_logger = SummaryWriter(log_dir = os.path.join(args.save, 'validation'), comment = 'validation')$/;"	kind:variable	line:227
+vid2vid_model_D.py	../models/vid2vid_model_D.py	1;"	kind:file	line:1
+vid2vid_model_G.py	../models/vid2vid_model_G.py	1;"	kind:file	line:1
+vis_print	../util/visualizer.py	/^    def vis_print(self, message):$/;"	kind:member	line:138
+visual_list	../test.py	/^    visual_list = [('real_A', real_A), $/;"	kind:variable	line:49
+visualizer	../test.py	/^visualizer = Visualizer(opt)$/;"	kind:variable	line:26
+visualizer.py	../util/visualizer.py	1;"	kind:file	line:1
+visuals	../test.py	/^    visuals = OrderedDict(visual_list) $/;"	kind:variable	line:51
+weights	../models/flownet2_pytorch/convert.py	/^weights = {}$/;"	kind:variable	line:49
+weights_init	../models/networks.py	/^def weights_init(m):$/;"	kind:function	line:17
+width	../models/flownet2_pytorch/convert.py	/^width = 256$/;"	kind:variable	line:30
+writeFlow	../models/flownet2_pytorch/utils/flow_utils.py	/^def writeFlow(filename,uv,v=None):$/;"	kind:function	line:26

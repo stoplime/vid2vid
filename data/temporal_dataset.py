@@ -23,6 +23,10 @@ class TemporalDataset(BaseDataset):
             self.dir_inst = os.path.join(opt.dataroot, opt.phase + '_inst')
             self.I_paths = sorted(make_grouped_dataset(self.dir_inst))
             check_path_valid(self.A_paths, self.I_paths)
+        if opt.use_depth_as_labels:
+            self.dir_D = os.path.join(opt.dataroot, opt.phase + '_D')
+            self.D_paths = sorted(make_grouped_dataset(self.dir_D))
+            check_path_valid(self.A_paths, self.D_paths)
 
         self.n_of_seqs = len(self.A_paths)                 # number of sequences to train       
         self.seq_len_max = max([len(A) for A in self.A_paths])        
@@ -31,9 +35,11 @@ class TemporalDataset(BaseDataset):
     def __getitem__(self, index):
         tG = self.opt.n_frames_G
         A_paths = self.A_paths[index % self.n_of_seqs]
-        B_paths = self.B_paths[index % self.n_of_seqs]                
+        B_paths = self.B_paths[index % self.n_of_seqs]
         if self.opt.use_instance:
-            I_paths = self.I_paths[index % self.n_of_seqs]                        
+            I_paths = self.I_paths[index % self.n_of_seqs]
+        if opt.use_depth_as_labels:
+            D_paths = self.D_paths[index % self.n_of_seqs]
         
         # setting parameters
         n_frames_total, start_idx, t_step = get_video_params(self.opt, self.n_frames_total, len(A_paths), index)     
@@ -45,7 +51,10 @@ class TemporalDataset(BaseDataset):
         transform_scaleA = get_transform(self.opt, params, method=Image.NEAREST, normalize=False) if self.A_is_label else transform_scaleB
 
         # read in images
-        A = B = inst = 0
+        A = 0
+        B = 0
+        inst = 0
+        D = 0
         for i in range(n_frames_total):            
             A_path = A_paths[start_idx + i * t_step]
             B_path = B_paths[start_idx + i * t_step]            

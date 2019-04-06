@@ -29,6 +29,7 @@ class TrainOptions(BaseOptions):
         self.parser.add_argument('--sparse_D', action='store_true', help='use sparse temporal discriminators to save memory')
 
         # for temporal
+        self.parser.add_argument('--use_depth_as_labels', action='store_true', help='if specified, looks for depth data as class D, used as generator labels')
         self.parser.add_argument('--lambda_T', type=float, default=10.0, help='weight for temporal loss')
         self.parser.add_argument('--lambda_F', type=float, default=10.0, help='weight for flow loss')
         self.parser.add_argument('--n_frames_D', type=int, default=3, help='number of frames to feed into temporal discriminator')        
