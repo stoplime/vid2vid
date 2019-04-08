@@ -1,0 +1,3 @@
+[submodule "deeplabv3"]
+	path = deeplabv3
+	url = https://github.com/stoplime/deeplabv3.git
