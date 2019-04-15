@@ -183,9 +183,23 @@ class CompositeGenerator(nn.Module):
         if use_raw_only or self.no_flow:
             img_final = img_raw
         else:
-            img_warp = self.resample(img_prev[:,-3:,...].cuda(gpu_id), flow).cuda(gpu_id)        
+            # img_warp = self.resample(img_prev[:,-3:,...].cuda(gpu_id), flow).cuda(gpu_id)        
+            # weight_ = weight.expand_as(img_raw)
+            # img_final = img_raw * weight_ + img_warp * (1-weight_)
+
+            if img_prev.shape[1] == 8:
+                img_warp = self.resample(img_prev[:,-4:-1,...].cuda(gpu_id), flow).cuda(gpu_id)
+            else:
+                img_warp = self.resample(img_prev[:,-3:,...].cuda(gpu_id), flow).cuda(gpu_id)        
             weight_ = weight.expand_as(img_raw)
-            img_final = img_raw * weight_ + img_warp * (1-weight_)
+            if weight_.shape[1] == 4:
+                warp_weights = 1-weight_[:,-3:]
+            else:
+                warp_weights = 1-weight_
+            warped_img = img_warp * warp_weights
+            if weight_.shape[1] == 4:
+                warped_img = F.pad(warped_img, (0,0,0,0,0,1))
+            img_final = img_raw * weight_ + warped_img
         
         img_fg_feat = None
         if self.use_fg_model:
@@ -750,6 +764,10 @@ class VGGLoss(nn.Module):
     def forward(self, x, y):
         while x.size()[3] > 1024:
             x, y = self.downsample(x), self.downsample(y)
+        if x.shape[1] > 3:
+            x = x[:,:3]
+        if y.shape[1] > 3:
+            y = y[:,:3]
         x_vgg, y_vgg = self.vgg(x), self.vgg(y)
         loss = 0
         for i in range(len(x_vgg)):

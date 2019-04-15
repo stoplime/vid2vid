@@ -36,6 +36,10 @@ class FlowNet(BaseModel):
                 return self.compute_flow_and_conf(input_A, input_B)
 
     def compute_flow_and_conf(self, im1, im2):
+        if im1.size()[1] > 3:
+            im1 = im1[:,:3]
+        if im2.size()[1] > 3:
+            im2 = im2[:,:3]
         assert(im1.size()[1] == 3)
         assert(im1.size() == im2.size())        
         old_h, old_w = im1.size()[2], im1.size()[3]

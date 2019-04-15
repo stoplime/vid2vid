@@ -67,7 +67,9 @@ def tensor2flow(output, imtype=np.uint8):
 
 def save_image(image_numpy, image_path):
     image_pil = Image.fromarray(image_numpy)
-    image_pil.save(image_path)
+    # print(image_path)
+    file_path, file_ext = os.path.splitext(image_path)
+    image_pil.save(file_path + ".png")
 
 def print_numpy(x, val=True, shp=False):
     x = x.astype(np.float64)

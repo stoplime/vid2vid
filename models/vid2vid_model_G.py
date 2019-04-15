@@ -301,7 +301,20 @@ class Vid2VidModelG(BaseModel):
     def load_single_G(self):  # load the model that generates the first frame
         opt = self.opt
         s = self.n_scales
-        if 'City' in self.opt.dataroot:
+        if opt.custom_model != '':
+            load_path = opt.custom_model
+
+            input_nc = opt.label_nc if opt.label_nc != 0 else opt.input_nc
+            netG_input_nc = input_nc * opt.n_frames_G
+            if opt.use_instance:
+                netG_input_nc += opt.n_frames_G
+            prev_output_nc = (opt.n_frames_G - 1) * opt.output_nc
+            if opt.openpose_only:
+                opt.no_flow = True
+            netG = networks.define_G(netG_input_nc, opt.output_nc, prev_output_nc, opt.ngf, opt.netG,
+                                       opt.n_downsample_G, opt.norm, 0, self.gpu_ids, opt)
+
+        elif 'City' in self.opt.dataroot:
             single_path = 'checkpoints/label2city_single/'
             if opt.loadSize == 512:
                 load_path = single_path + 'latest_net_G_512.pth'
